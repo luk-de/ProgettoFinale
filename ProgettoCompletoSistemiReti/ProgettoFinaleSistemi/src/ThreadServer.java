@@ -14,7 +14,7 @@ public class ThreadServer extends Thread{
     public ThreadServer(Socket clientSocket) {
         this.clientSocket = clientSocket;
         this.struttureRicettive=new StruttureRicettive();
-        this.data = StruttureRicettive.loadData("C:\\Users\\lukas\\Desktop\\ProgettoFinale-main\\ProgettoFInaleSistemi\\src\\Regione-Lombardia---Mappa-delle-strutture-ricettive.csv");
+        this.data = StruttureRicettive.loadData("Regione-Lombardia---Mappa-delle-strutture-ricettive.csv");
     }
 
         public void run() {

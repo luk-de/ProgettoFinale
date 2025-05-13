@@ -1,0 +1,1 @@
+FROM openjdk:21.0.2-jdk-slim
